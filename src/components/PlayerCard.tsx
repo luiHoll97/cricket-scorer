@@ -18,11 +18,14 @@ const PlayerCard = () => {
         })
     }, [])
 
+
+
     return (
         <>
         <Button onClick={() => console.log(players)}></Button>
         
-            {players.map((player: Player) => (
+            {players.filter((player) => player.nationalTeam
+             == 'England' ).map((player: Player) => (
 
                     <Card maxW='25%' align='center'>
                         <CardBody>
@@ -30,7 +33,7 @@ const PlayerCard = () => {
                                 src={player.icon}
                                 alt={player.firstname + ' ' + player.surname}
                                 borderRadius='full'
-                                boxSize='150px'
+                                boxSize='200px'
                             />
                             <Stack mt='6' spacing='3' align='center'>
                                 <Heading size='md' >{player.firstname + ' ' + player.surname}</Heading>
