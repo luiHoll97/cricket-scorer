@@ -59,7 +59,7 @@ const CurrentBatsmen = (): JSX.Element => {
 
     return (
         <>
-            <Box>
+            <Box borderRadius='500px'>
                 <Center>
                     <Button onClick={() => addRunsToBatsman(0)}>Dot Ball</Button>
                     <Button onClick={() => addRunsToBatsman(1)}>1</Button>
@@ -70,6 +70,7 @@ const CurrentBatsmen = (): JSX.Element => {
                     <Button onClick={() => addRunsToBatsman(5)}>5</Button>
                     <Button onClick={() => addRunsToBatsman(6)}>6</Button>
                     <Button>W</Button>
+                    
                 </Center>
             </Box>
         </>

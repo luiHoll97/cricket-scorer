@@ -1,0 +1,15 @@
+export interface Match {
+    id: string,
+    userId: string,
+    homeTeam: string,
+    awayTeam: string,
+    venue: string,
+    date: string,
+    motm: string,
+    ongoing: boolean,
+    format: string,
+    result: string,
+    winner: string,
+    homeTeamEmblem: string,
+    awayTeamEmblem: string,
+}
