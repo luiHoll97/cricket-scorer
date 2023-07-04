@@ -26,6 +26,7 @@ const Scorebook = (): JSX.Element => {
     const { ballNumber, setBallNumber } = useContext(Scorebox.ScoreboardContext);
     const { currentBowler, setCurrentBowler } = useContext(Scorebox.ScoreboardContext);
     const { scoreboard, setScoreboard } = useContext(Scorebox.ScoreboardContext);
+    const { googleUser, setGoogleUser } = useContext(Scorebox.ScoreboardContext);
 
     return (
         <div>
