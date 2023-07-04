@@ -12,6 +12,7 @@ import Scorebook from "./components/Scorebook"
 import PlayerCard from "./components/PlayerCard"
 import { Route, Routes } from "react-router-dom"
 import Home from "./routes/Home"
+import Results from "./routes/Results"
 import ScoringDashboard from "./routes/ScoringDashboard"
 
 export const App = () => {
@@ -27,6 +28,7 @@ export const App = () => {
           <Routes>
           <Route path="/" element={<Home firebaseApp={firebaseApp} />} />
           <Route path="/scorebook" element={<ScoringDashboard />} />
+          <Route path="/results" element={<Results />} />
           
           {/*<Scorebook />
           <CurrentBatsmen />

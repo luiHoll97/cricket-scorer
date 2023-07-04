@@ -1,4 +1,5 @@
-/*useEffect(() => {
+const firebaseFunctions = () => {
+  /*useEffect(() => {
     readCollectionGroupInnings();
     console.log('onStrikeBatsman', onStrikeBatsman, 'offStrikeBatsman', offStrikeBatsman)
     readCollectionBatsmen()
@@ -39,3 +40,6 @@
       })
     })
   }*/
+}
+
+export default firebaseFunctions;
