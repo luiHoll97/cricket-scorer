@@ -7,12 +7,8 @@ import {
     Th,
     Td,
     TableCaption,
-    TableContainer,
-    Image,
-    SimpleGrid,
     Text,
     Flex,
-    Center,
     WrapItem,
     Avatar
 } from '@chakra-ui/react'
@@ -26,6 +22,7 @@ const Scorebook = (): JSX.Element => {
     const { ballNumber, setBallNumber } = useContext(Scorebox.ScoreboardContext);
     const { currentBowler, setCurrentBowler } = useContext(Scorebox.ScoreboardContext);
     const { scoreboard, setScoreboard } = useContext(Scorebox.ScoreboardContext);
+    const { googleUser, setGoogleUser } = useContext(Scorebox.ScoreboardContext);
 
     return (
         <div>

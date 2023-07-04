@@ -1,4 +1,4 @@
-import React from "react";
+
 import { getFirestore, collection, addDoc } from "firebase/firestore";
 import { squads } from "./squads";
 import { Player } from "../types/player";

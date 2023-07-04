@@ -1,7 +1,7 @@
-import React, { useContext } from 'react';
-import { Button, Box, Image, Text, Avatar, WrapItem, Center } from '@chakra-ui/react';
+import { useContext } from 'react';
+import { Button, Box, Center } from '@chakra-ui/react';
 import Scorebox from '../context/Scorebox';
-import populateFirebasePlayers from '../utils/populateFirebasePlayers';
+
 
 const CurrentBatsmen = (): JSX.Element => {
 
