@@ -9,7 +9,7 @@ const NewUserHome = (): JSX.Element => {
 
 
     const { isOpen, onOpen, onClose } = useDisclosure()
-    const firstField = React.useRef()
+
 
     return (
         <>

@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 import { Player } from '../types/player';
 import { getFirestore, collection, onSnapshot } from 'firebase/firestore';
-import { Card, Button, CardBody, CardFooter, Divider, Heading, Image, Stack, Text, Center } from '@chakra-ui/react';
+import { Card, Button, CardBody, Divider, Heading, Image, Stack, Text,} from '@chakra-ui/react';
 
 const PlayerCard = () => {
 

@@ -5,9 +5,8 @@ import {
     useColorMode, Center, Heading, Text, Highlight
 } from '@chakra-ui/react';
 import { MoonIcon, SunIcon } from '@chakra-ui/icons';
-import { GoogleAuthProvider, getAuth, onAuthStateChanged, signInWithPopup, signOut } from 'firebase/auth';
-import { getFirestore, collection, onSnapshot, addDoc, deleteDoc, doc, query } from '@firebase/firestore';
-import firebase from 'firebase/app';
+import { GoogleAuthProvider, getAuth, onAuthStateChanged, signInWithPopup} from 'firebase/auth';
+
 import Scorebox from '../context/Scorebox';
 import createGoogleUserObject from '../utils/createGoogleUserObject';
 
@@ -31,7 +30,7 @@ const NavLink = ({ children }: { children: ReactNode }) => (
 
 export default function Navbar({ firebaseApp }: NavLinkProps) {
     const { colorMode, toggleColorMode } = useColorMode();
-    const { isOpen, onOpen, onClose } = useDisclosure();
+    
     const { googleUser, setGoogleUser } = useContext(Scorebox.ScoreboardContext);
 
 
