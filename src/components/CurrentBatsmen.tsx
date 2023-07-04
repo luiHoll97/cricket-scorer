@@ -21,10 +21,6 @@ const CurrentBatsmen = (): JSX.Element => {
         setOnStrikeBatsman(temp)
     }
 
-    const handleWide = () => {
-        setBallNumber(ballNumber + 1)
-        addBallsToBatsman()
-    }
     const addBoundariesToBatsman = (runs: number) => {
         const temp = onStrikeBatsman
         if (runs === 4) {
@@ -47,14 +43,7 @@ const CurrentBatsmen = (): JSX.Element => {
         }
     }
 
-    const setBatsmensNames = () => {
-        const temp = onStrikeBatsman
-        temp.name = 'David Warner'
-        setOnStrikeBatsman(temp)
-        const temp2 = offStrikeBatsman
-        temp2.name = 'Usman Khawaja'
-        setOffStrikeBatsman(temp2)
-    }
+    
 
 
     return (
