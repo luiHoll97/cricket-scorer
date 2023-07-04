@@ -2,7 +2,6 @@ import {
     Table,
     Thead,
     Tbody,
-    Tfoot,
     Tr,
     Th,
     Td,
@@ -17,12 +16,12 @@ import Scorebox from '../context/Scorebox'
 
 const Scorebook = (): JSX.Element => {
 
-    const { onStrikeBatsman, setOnStrikeBatsman } = useContext(Scorebox.ScoreboardContext);
-    const { offStrikeBatsman, setOffStrikeBatsman } = useContext(Scorebox.ScoreboardContext);
-    const { ballNumber, setBallNumber } = useContext(Scorebox.ScoreboardContext);
-    const { currentBowler, setCurrentBowler } = useContext(Scorebox.ScoreboardContext);
-    const { scoreboard, setScoreboard } = useContext(Scorebox.ScoreboardContext);
-    const { googleUser, setGoogleUser } = useContext(Scorebox.ScoreboardContext);
+    const { onStrikeBatsman } = useContext(Scorebox.ScoreboardContext);
+    const { offStrikeBatsman} = useContext(Scorebox.ScoreboardContext);
+   // const { ballNumber, setBallNumber } = useContext(Scorebox.ScoreboardContext);
+   // const { currentBowler, setCurrentBowler } = useContext(Scorebox.ScoreboardContext);
+   // const { scoreboard, setScoreboard } = useContext(Scorebox.ScoreboardContext);
+   // const { googleUser, setGoogleUser } = useContext(Scorebox.ScoreboardContext);
 
     return (
         <div>

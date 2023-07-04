@@ -71,6 +71,6 @@ const ScoreboxProvider = ({children}: {children: React.ReactNode}) => {
       </ScoreboardContext.Provider>
     );
   };
-
+// eslint-disable-next-line
   export default { ScoreboxProvider, ScoreboardContext };
   
