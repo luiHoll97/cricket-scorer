@@ -1,7 +1,7 @@
-import { Button } from "@chakra-ui/react";
+
 import { getFirestore, collection, addDoc } from "firebase/firestore";
 import 'firebase/firestore';
-import firebase from 'firebase/app';
+
 
 
 // ...

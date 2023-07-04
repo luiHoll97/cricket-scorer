@@ -1,7 +1,6 @@
-import React from 'react'
+
 import Navbar from '../components/Navbar'
 import NewUserHome from '../components/NewUserHome'
-import { Link } from 'react-router-dom'
 import { HStack, Center } from '@chakra-ui/layout'
 import HomeScreenSelection from '../components/HomeScreenSelection'
 

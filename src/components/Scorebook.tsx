@@ -7,12 +7,8 @@ import {
     Th,
     Td,
     TableCaption,
-    TableContainer,
-    Image,
-    SimpleGrid,
     Text,
     Flex,
-    Center,
     WrapItem,
     Avatar
 } from '@chakra-ui/react'

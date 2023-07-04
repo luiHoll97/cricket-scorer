@@ -1,5 +1,5 @@
-import React from 'react';
-import { Box, Button, Center, Heading, Image, Text, VStack } from "@chakra-ui/react";
+
+import { Box, Center, Heading, Image, Text} from "@chakra-ui/react";
 const HomeScreenSelection = ({ imageSrc, heading, text }: any): JSX.Element => {
     return (
       <>

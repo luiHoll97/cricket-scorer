@@ -1,4 +1,4 @@
-import React, { createContext, useContext, useState } from "react";
+import React, { createContext, useState } from "react";
 import { Batsman } from "../types/batsman";
 import { Scoreboard } from "../types/scoreboard";
 import newBatsman from "../utils/newBatsman";
