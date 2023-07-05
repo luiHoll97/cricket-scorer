@@ -1,5 +1,5 @@
 import { useContext } from 'react';
-import { Button, Box, Center } from '@chakra-ui/react';
+import { Button, Box, Center, HStack } from '@chakra-ui/react';
 import Scorebox from '../context/Scorebox';
 
 
@@ -50,6 +50,7 @@ const CurrentBatsmen = (): JSX.Element => {
         <>
             <Box borderRadius='500px'>
                 <Center>
+                    <HStack>
                     <Button onClick={() => addRunsToBatsman(0)}>Dot Ball</Button>
                     <Button onClick={() => addRunsToBatsman(1)}>1</Button>
                     <Button onClick={() => addRunsToBatsman(2)}>2</Button>
@@ -59,7 +60,7 @@ const CurrentBatsmen = (): JSX.Element => {
                     <Button onClick={() => addRunsToBatsman(5)}>5</Button>
                     <Button onClick={() => addRunsToBatsman(6)}>6</Button>
                     <Button>W</Button>
-                    
+                    </HStack>
                 </Center>
             </Box>
         </>
