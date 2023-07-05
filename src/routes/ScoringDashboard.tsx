@@ -1,9 +1,9 @@
 
-import CurrentBatsmen from '../components/CurrentBatsmen';
+
 import Scorebook from '../components/Scorebook';
 import Navbar from '../components/Navbar';
 import OverviewWithScorer from '../components/OverviewWithScorer';
-import { Tab, TabList, TabPanel, TabPanels, Tabs, Divider } from '@chakra-ui/react';
+import { Tab, TabList, TabPanel, TabPanels, Tabs } from '@chakra-ui/react';
 
 const ScoringDashboard = ({ firebaseApp }: any) => {
     return (
