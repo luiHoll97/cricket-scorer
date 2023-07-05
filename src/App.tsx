@@ -20,12 +20,8 @@ export const App = () => {
         <Scorebox.ScoreboxProvider>
           <Routes>
           <Route path="/" element={<Home firebaseApp={firebaseApp} />} />
-          <Route path="/scorebook" element={<ScoringDashboard />} />
+          <Route path="/scorebook" element={<ScoringDashboard firebaseApp={firebaseApp} />} />
           <Route path="/results" element={<Results />} />
-          
-          {/*<Scorebook />
-          <CurrentBatsmen />
-          <PlayerCard />*/}
           </Routes>
         </Scorebox.ScoreboxProvider>
       </ChakraProvider>

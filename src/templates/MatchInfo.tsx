@@ -13,18 +13,18 @@ const MatchInfo = (match: Match) => {
     >
       <Box p="4">
         <Box display="flex" alignItems="center" justifyContent="space-between">
-          <Image src={match.homeTeamEmblem} alt={`${match.homeTeam} emblem`} boxSize="50px" />
+          {/*<Image src={match.homeTeamEmblem} alt={`${match.homeTeam} emblem`} boxSize="50px" />*/}
           <Text fontWeight="bold" fontSize="lg">
             {`${match.homeTeam} vs ${match.awayTeam}`}
           </Text>
-          <Image src={match.awayTeamEmblem} alt={`${match.awayTeam} emblem`} boxSize="50px" />
+          {/*<Image src={match.awayTeamEmblem} alt={`${match.awayTeam} emblem`} boxSize="50px" />*/}
         </Box>
         <Box mt="3" display="flex" justifyContent="space-between">
         <Text fontSize="sm">
             Format: <Badge colorScheme="blue">{match.format}</Badge>
           </Text>
           <Text fontSize="sm">
-            Date: <Badge colorScheme="blue">{match.date}</Badge>
+            Date: <Badge colorScheme="blue">{/*match.date*/}</Badge>
           </Text>
           <Text fontSize="sm">
             Venue: <Badge colorScheme="blue">{match.venue}</Badge>
